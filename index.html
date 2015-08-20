@@ -35,7 +35,7 @@
             
 
             <!-- Main title -->
-            <a class="navbar-brand" href="doc/site">Jerry Analytics</a>
+            <a class="navbar-brand" href=".">Jerry Analytics</a>
         </div>
 
         <!-- Expanded navigation -->
@@ -174,29 +174,40 @@ function func(result) {
 <tr>
 <th>Argument</th>
 <th>Value</th>
-<th>Explanation</th>
+<th>Requirement</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>type</td>
 <td>increment</td>
+<td>Required</td>
 <td>-</td>
 </tr>
 <tr>
 <td>callback</td>
 <td>jsonp_callback</td>
+<td>Required</td>
 <td>The callback will be called when the jsonp request returns.</td>
 </tr>
 <tr>
 <td>domain</td>
 <td>http://a.com</td>
+<td>Required</td>
 <td>domain of your site</td>
 </tr>
 <tr>
 <td>url</td>
 <td>http://a.com/page/</td>
+<td>Required</td>
 <td>url of current page</td>
+</tr>
+<tr>
+<td>title</td>
+<td>Hello, Everyone</td>
+<td>Required</td>
+<td>page title</td>
 </tr>
 </tbody>
 </table>
@@ -224,23 +235,27 @@ function func(result) {
 <tr>
 <th>Argument</th>
 <th>Value</th>
-<th>Explanation</th>
+<th>Requirement</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>type</td>
 <td>get</td>
+<td>Required</td>
 <td>-</td>
 </tr>
 <tr>
 <td>callback</td>
 <td>jsonp_callback</td>
+<td>Required</td>
 <td>The callback will be called when the jsonp request returns.</td>
 </tr>
 <tr>
 <td>pages</td>
 <td>(see the <a href="#2-get-the-count-of-several-pages">sample below</a>)</td>
+<td>Required</td>
 <td>an array contains the domains and urls of several pages</td>
 </tr>
 </tbody>
@@ -277,28 +292,33 @@ function func(result) {
 <tr>
 <th>Argument</th>
 <th>Value</th>
-<th>Explanation</th>
+<th>Requirement</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>type</td>
 <td>getTop</td>
+<td>Required</td>
 <td>-</td>
 </tr>
 <tr>
 <td>callback</td>
 <td>jsonp_callback</td>
+<td>Required</td>
 <td>The callback will be called when the jsonp request returns.</td>
 </tr>
 <tr>
 <td>domain</td>
 <td>http://a.com</td>
+<td>Required</td>
 <td>domain of your site</td>
 </tr>
 <tr>
 <td>number</td>
 <td>5</td>
+<td>Required</td>
 <td>get top 5 pages</td>
 </tr>
 </tbody>
@@ -344,23 +364,27 @@ function func(result) {
 <tr>
 <th>Argument</th>
 <th>Value</th>
-<th>Explanation</th>
+<th>Requirement</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>type</td>
 <td>getByDomain</td>
+<td>Required</td>
 <td>-</td>
 </tr>
 <tr>
 <td>callback</td>
 <td>jsonp_callback</td>
+<td>Required</td>
 <td>The callback will be called when the jsonp request returns.</td>
 </tr>
 <tr>
 <td>domain</td>
 <td>http://a.com</td>
+<td>Required</td>
 <td>domain of your site</td>
 </tr>
 </tbody>
